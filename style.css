@@ -4,6 +4,9 @@ a{
 ul{
     list-style: none;
 }
+  address {
+    font-style: normal;
+  }
 .nav-list-link{
     font-family: Roboto;
     font-size: 14px;
@@ -101,5 +104,61 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.03em;
+color: #757575;
+}
+.features-list-title{
+    margin-bottom: 10px;
+}
+.work-title{
+    margin-bottom: 50px;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.work-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.team-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.section-work{
+    padding-bottom: 94px;
+}
+.team-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-title{
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.team-list-title{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.team-list-text{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
 color: #757575;
 }
