@@ -17,7 +17,8 @@ ul{
     color:#000000;
 }
 .logo{
-    font-family: Raleway;
+    font-family: Roboto;
+    margin-right: 93px;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
@@ -46,6 +47,7 @@ header{
 .contacts-list, .nav-list{
     display: flex;
     gap: 50px;
+    margin-right: 344px;
 }
 .section-hero{
     background-color: #2F303A;
@@ -137,6 +139,8 @@ color: #212121;
     margin-bottom: 50px;
 }
 .team-title{
+    margin-bottom: 50px;
+    padding-top: 94px;
     font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
@@ -161,4 +165,81 @@ line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #757575;
+}
+.section-team{
+    background-color: #F5F4FA;
+}
+.team-list-item{
+    background-color: white;
+    margin-bottom: 94px;
+}
+.box{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
+.footer-logo{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.address{
+    margin-top: 20px;
+}
+.address-list-link{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+}
+body{
+    margin: 0;
+}
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.filters-list-btn{
+    padding: 6px 22px;
+    border: none;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.filters-list-btn:hover{
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
