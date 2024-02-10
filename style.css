@@ -227,9 +227,14 @@ body{
 .filters-list{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 160px;
     gap: 8px;
 }
 .filters-list-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     padding: 6px 22px;
     border: none;
